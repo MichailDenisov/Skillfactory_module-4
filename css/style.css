@@ -1,0 +1,44 @@
+.header {
+    padding: 20px;
+    border-bottom: 1px solid gray;
+    text-align: center;
+}
+    a {
+    text-decoration: none; /* Убирает подчеркивание для ссылок */
+   } 
+    a:hover { 
+    text-decoration: underline; /* Добавляем подчеркивание при наведении курсора на ссылку */
+    color: rgb(255, 0, 247); 
+   }
+.header-link {
+    margin: 0 10px;
+} 
+.link {
+    color: blueviolet;
+    transition: color .2s;
+}
+.main {
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+}
+.img-wrapper {
+    background-color: antiquewhite;
+    padding: 20px;
+    text-align: center;
+}
+.title {
+    color: #72757a;
+    text-align: center;
+}
+.footer {
+    border-top: 1px solid gray;
+    padding: 20px;
+    text-align: center;
+    color: #72757a;
+    
+}
+.subtitle {
+    border-left:5px solid chartreuse ;
+} 
