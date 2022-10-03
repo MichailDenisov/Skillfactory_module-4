@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="text" href="fonts/font.css">
     <title>Сайт визитка</title>
 </head>
 <body>
@@ -14,22 +15,22 @@
         <a href="#contacts" class="header-link link">Контакты</a>
     </header>
     <main class="main">
-    <aside>
-        <div class="img-wrapper">
-            <img src="/imeges/DSC00425.JPG" class="img" alt="" width="300">
-        </div>
-        <h2 class="subtitle" id="contacts">Контакты</h2>
-        <p> 
-            "Tелефон:"
-            <a href="tel:232323">232323</a>   
-        </p>
-        <p>
-            "E-mail: "
-            <a href="something.special@amazing-company.com ">something.special@amazing-company.com</a>
-        </p>
-    </aside>
-        <section class="section">
-            <h1 class="title">Михаил Денисов.Веб Разработчик</h1>
+        <aside class="aside">
+            <div class="img-wrapper">
+                <img src="../imeges/DSC00425.JPG" class="img" alt="" width="300">
+            </div>
+            <h2 class="subtitle" id="contacts">Контакты</h2>
+            <p class="contacts-items"> 
+                <img src="imeges/phone_black_24dp.svg" alt="phone" class="contacts-icon">
+                <a href="tel:232323">232323</a>   
+            </p>
+            <p class="contacts-items">
+                <img src="imeges/mark_as_unread_black_24dp.svg" alt="email" class="contacts-icon">
+                <a href="something.special@amazing-company.com ">something.special@amazing-company.com</a>
+            </p>
+        </aside>
+       <section class="section">
+            <h1 class="title">Михаил Денисов. <em>Веб разработчик</em></h1>
             <h2 class="subtitle" id="about">Обо мне</h2>
             <p>Меня зовут Михаил. Я работал <strong>строителем</strong>. Решил получше узнать смежную профессию, чтобы разобраться как устроен веб.</p>
             <p>Живу в Перми. Люблю кататься на велосипеде.</p>
@@ -46,8 +47,9 @@
     </main>
     <footer class="footer">
         <a href="https://skillfactory.ru/" class="link">Skillfactory.ru</a>
-        <span>&#42;</span>
-        <span>2019</span>
+        <!-- <span>&#42;</span> -->
+         • 
+        <span>2022</span>
     </footer>
  </body>
 </html>
