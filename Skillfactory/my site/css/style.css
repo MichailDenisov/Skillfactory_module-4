@@ -45,7 +45,8 @@ body {
     color: #72757a;
     text-align: center;
     font-size: 32px;
-    font-family:'Gilroy';    text-shadow: 3pt 3pt 5pt darkgrey;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+        text-shadow: 3pt 3pt 5pt darkgrey;
 }
 .footer {
     border-top: 1px solid gray;
@@ -56,6 +57,8 @@ body {
 .subtitle {
     border-left:5px solid chartreuse ;
     padding-left: 5px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
 }
 .section {
     margin-left: 45px;
