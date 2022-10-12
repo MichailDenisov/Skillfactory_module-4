@@ -1,0 +1,72 @@
+@font-face {
+    font-family:'Gilroy';
+    src: url("../fonts/Gilroy-Regular.eot");
+    src: local("Gilroy Regular"), local("Gilroy-Regular"), url("../fonts/Gilroy-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-Regular.woff2") format("woff2"), url("../fonts/Gilroy-Regular.woff") format("woff"), url("../fonts/Gilroy-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: "Gilroy";
+}
+.header {
+    padding: 20px;
+    border-bottom: 1px solid gray;
+    text-align: center;
+}
+a {
+    text-decoration: none; /* Убирает подчеркивание для ссылок */
+   } 
+a:hover { 
+    text-decoration: underline; /* Добавляем подчеркивание при наведении курсора на ссылку */
+    color: rgb(255, 0, 247); 
+   }
+.header-link {
+    margin: 0 10px;
+} 
+.link {
+    color: blueviolet;
+    transition: color .2s;
+}
+.main {
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.img-wrapper {
+    background-color: antiquewhite;
+    /* padding: 20px; */
+    text-align: center;
+    box-shadow: 0px 0px 0px 3pt #b170384a;
+    margin-top: 16px;
+}
+.title {
+    color: #72757a;
+    text-align: center;
+    font-size: 32px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+        text-shadow: 3pt 3pt 5pt darkgrey;
+}
+.footer {
+    border-top: 1px solid gray;
+    padding: 20px;
+    text-align: center;
+    color: #72757a;
+}
+.subtitle {
+    border-left:5px solid chartreuse ;
+    padding-left: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.section {
+    margin-left: 45px;
+}
+.aside {margin: 10px 0px  ;}
+.contacts-items { 
+    display: flex;
+    align-items: center;
+}
+.contacts-icon {
+    padding-right: 10px;
+}
